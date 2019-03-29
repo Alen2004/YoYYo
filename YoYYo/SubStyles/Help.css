@@ -1,0 +1,280 @@
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+    margin:0;
+    padding:0;
+    border:0;
+    outline:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+body {
+    line-height:1;
+}
+
+article,aside,details,figcaption,figure,
+footer,header,hgroup,menu,nav,section {
+    display:block;
+}
+
+nav ul {
+    list-style:none;
+}
+
+blockquote, q {
+    quotes:none;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content:'';
+    content:none;
+}
+
+a {
+    margin:0;
+    padding:0;
+    font-size:100%;
+    vertical-align:baseline;
+    background:transparent;
+}
+
+/* change colours to suit your needs */
+ins {
+    background-color:#ff9;
+    color:#000;
+    text-decoration:none;
+}
+
+/* change colours to suit your needs */
+mark {
+    background-color:#ff9;
+    color:#000;
+    font-style:italic;
+    font-weight:bold;
+}
+
+del {
+    text-decoration: line-through;
+}
+
+abbr[title], dfn[title] {
+    border-bottom:1px dotted;
+    cursor:help;
+}
+
+table {
+    border-collapse:collapse;
+    border-spacing:0;
+}
+
+/* change border colour to suit your needs */
+hr {
+    display:block;
+    height:1px;
+    border:0;
+    border-top:1px solid #cccccc;
+    margin:1em 0;
+    padding:0;
+}
+
+input, select {
+    vertical-align:middle;
+}
+
+/* MY CODE */
+
+body {
+  background-color: #1d1d1d;
+}
+
+ #sidebar {
+
+
+   position: fixed;
+   width: 20%;
+   left: -20%;
+   height: 100%;
+   background-color: #000;
+   transition: 0.4s;
+ }
+
+ .img {
+   position: fixed;
+   padding-left:1170px;
+   padding-top: 10px;
+
+ }
+
+ .img img {
+   height: 65px;
+
+ }
+
+
+.sidebarul {
+  text-align: center;
+  font-size: 30px;
+  list-style: none;
+  color: #fff;
+  padding-top: 50%;
+
+}
+
+.sidebarul li {
+  line-height: 100px;
+  width: 100%;
+  padding-left: 0;
+}
+
+.sidebarul li a {
+  font-family: 'Squada One', cursive;
+  display: block;
+  text-decoration: none;
+  width: 100%;
+  color: #fff;
+  transition: 0.4s;
+}
+.sidebarul li a:hover {
+  background-color: #fff;
+  color: #000000;
+  transition: 0.4s;
+  text-shadow: 2px 2px 5px black;
+}
+
+.sidebar-btn {
+  cursor: pointer;
+  position: absolute;
+  left: 108%;
+  top: 3%;
+}
+
+.sidebar-btn span {
+  display: block;
+  background-color: #fff;
+  height: 5px;
+  width: 40px;
+  margin: 5px;
+
+}
+
+#sidebar.active {
+  left: 0;
+  transition: 0.4s;
+}
+
+.container {
+
+}
+
+
+.questions {
+
+}
+
+
+.questions h1 {
+  z-index: -100;
+  font-family: 'Squada One', cursive;
+  color: #fff;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  font-size: 50px;
+}
+
+.questions .questionsul {
+  font-family:  'Vast Shadow', cursive;
+  position: absolute;
+  left: 10%;
+  top: 30%;
+  z-index: -100;
+  list-style: lower-roman;
+  list-style-type: lower-latin;
+  border-bottom: 1px solid grey;
+}
+
+.questions .questionsul li a {
+  text-decoration: none;
+  line-height: 40px;
+  color: #fff;
+  text-shadow: none;
+
+}
+
+.questions .questionsul li a:hover {
+  text-shadow: 5px 5px black;
+}
+
+.answers {
+  color: #fff;
+  z-index: 100;
+}
+
+.answers h1 {
+  z-index: -100;
+  font-family: 'Squada One', cursive;
+  font-size: 50px;
+  position: absolute;
+  left: 10%;
+  top: 70%;
+}
+/*
+.answers h2 {
+  z-index: -100;
+  font-family: 'Vast Shadow',cursive;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 80%;
+}
+
+.answers p {
+  z-index: -100;
+  font-family: 'Vast Shadow',cursive;
+  letter-spacing: 1.5px;
+  line-height: 20px;
+  font-size: 17px;
+  position: absolute;
+  left: 10%;
+  top: 88%;
+} */
+
+.answers-h2 {
+  z-index: -100;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 80%;
+}
+
+.answers-h2 h2 {
+  padding-bottom: 300px;
+}
+
+.answers-p {
+  line-height: 18px;
+  z-index: -100;
+  font-family: 'Vast Shadow', cursive;
+  font-size: 15px;
+  position: absolute;
+  left: 10%;
+  top: 88%;
+}
+
+.answers-p p {
+  margin-right: 50px;
+  padding-bottom: 250px;
+}
